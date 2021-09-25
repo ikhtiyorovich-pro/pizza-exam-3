@@ -17,12 +17,15 @@ body{
 }
 
 .radio-span{
+  cursor: pointer;
   margin-left: 5px;
 }
 .salts-span{
+  cursor: pointer;
   margin-left: 5px;
 }
 .additional-span{
+  cursor: pointer;
   margin-left: 5px;
 }
 
@@ -57,4 +60,10 @@ body{
 
 .result-top-salts{
   margin-top: 5px;
+}
+
+.button{
+  padding: 5px 50px;
+  border: 1px solid black;
+background-color: rgba(255, 0, 0, 0.486);
 }

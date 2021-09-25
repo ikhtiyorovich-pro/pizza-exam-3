@@ -20,7 +20,6 @@ var elBreadLabel = document.createElement("label"); // Qalin yupqa selectidagi l
 var elBreadOptionthin = document.createElement("option"); // Qalin yupqa selectidagi yupqa non optioni
 var elBreadOptionthick = document.createElement("option"); // Qalin yupqa selectidagi qalin non optioni
 var elInputAndLabelWrapper = document.createElement("div");
-var elPizzaButton = document.createElement("button"); // Bu sayt buttoni
 
 //Append Childlar
 elForm.appendChild(elBreadWrapper);
@@ -33,14 +32,13 @@ elBreadSelect.appendChild(elBreadOptionthin);
 elBreadSelect.appendChild(elBreadOptionthick);
 elPizzaSizeWrapper.appendChild(elInputAndLabelWrapper);
 elPizzaTop.appendChild(elPizzaTopSalts);
-elResultWrapper.appendChild(elPizzaButton);
+
 
 elBreadSelect.setAttribute("class", "select");
 
 elBreadOptionthin.textContent = "Yupqa"; // Selectdagi yupqa non text contenti
 elBreadOptionthick.textContent = "Qalin"; // Selectdagi qalin non text contenti
 
-elPizzaButton.textContent = "Send";
 
 elBreadOptionthin.className = "thin-bread";
 
