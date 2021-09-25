@@ -33,21 +33,21 @@ elBreadSelect.appendChild(elBreadOptionthick);
 elPizzaSizeWrapper.appendChild(elInputAndLabelWrapper);
 elPizzaTop.appendChild(elPizzaTopSalts);
 
-
 elBreadSelect.setAttribute("class", "select");
 
 elBreadOptionthin.textContent = "Yupqa"; // Selectdagi yupqa non text contenti
 elBreadOptionthick.textContent = "Qalin"; // Selectdagi qalin non text contenti
-
-
 elBreadOptionthin.className = "thin-bread";
 
 elBreadParagraph.textContent = elBreadSelect.value;
+
 var pizza = function (evt) {
   evt.preventDefault();
   elBreadParagraph.textContent = elBreadSelect.value;
 };
+
 elBreadSelect.addEventListener("change", pizza);
+
 // =======================================================================================================================
 
 var radioSize = ["25sm", "30sm", "35sm"];
@@ -166,8 +166,8 @@ for (var i = 0; i < additional.length; i++) {
     }
 
     elSaltsResultItem.innerHTML = null;
-    // =================
     console.log(checkedAdditionals);
+
     for (var xi = 0; xi < checkedAdditionals.length; xi++) {
       var elAdditionalsResultList = document.createElement("li");
       elAdditionalsResultList.className = "result-top-salts";
