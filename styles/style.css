@@ -1,0 +1,60 @@
+body{
+  box-sizing: border-box;
+}
+
+.heading-wrapper{
+  width: 100%;
+  max-width: 383px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.select{
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.radio-span{
+  margin-left: 5px;
+}
+.salts-span{
+  margin-left: 5px;
+}
+.additional-span{
+  margin-left: 5px;
+}
+
+.radio-label + .radio-label{
+  margin-left: 10px;
+}
+.salts-label + .salts-label{
+  margin-left: 10px;
+}
+.additional-label + .additional-label{
+  margin-left: 10px;
+}
+
+.additional-wrapper{
+  margin-top: 10px;
+}
+
+.bread-paragraph{
+  font-size: 18px;
+}
+
+.size-paragraph{
+  font-size: 18px;
+  margin-top: 3px;
+  margin-left: 5px;
+  margin-bottom: 0;
+}
+
+.top{
+  margin-top: 10px;
+}
+
+.result-top-salts{
+  margin-top: 5px;
+}
